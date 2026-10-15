@@ -1,0 +1,193 @@
+{
+  "cleanUrls": false,
+  "redirects": [
+    {
+      "source": "/:path*",
+      "has": [
+        {
+          "type": "host",
+          "value": "greeksiptv.gr"
+        }
+      ],
+      "destination": "https://goldengateiptv.gr/:path*",
+      "permanent": true
+    },
+    {
+      "source": "/:path*",
+      "has": [
+        {
+          "type": "host",
+          "value": "www.greeksiptv.gr"
+        }
+      ],
+      "destination": "https://goldengateiptv.gr/:path*",
+      "permanent": true
+    },
+    {
+      "source": "/reseller-progam",
+      "destination": "/reseller.html",
+      "permanent": true
+    },
+    {
+      "source": "/reseller-progam/",
+      "destination": "/reseller.html",
+      "permanent": true
+    },
+    {
+      "source": "/terms-and-conditions",
+      "destination": "/terms.html",
+      "permanent": true
+    },
+    {
+      "source": "/terms-and-conditions/",
+      "destination": "/terms.html",
+      "permanent": true
+    },
+    {
+      "source": "/refund-and-cancellation-policy",
+      "destination": "/refund-policy.html",
+      "permanent": true
+    },
+    {
+      "source": "/refund-and-cancellation-policy/",
+      "destination": "/refund-policy.html",
+      "permanent": true
+    },
+    {
+      "source": "/privacy-policy",
+      "destination": "/privacy.html",
+      "permanent": true
+    },
+    {
+      "source": "/privacy-policy/",
+      "destination": "/privacy.html",
+      "permanent": true
+    },
+    {
+      "source": "/installation-guide",
+      "destination": "/setup-guide.html",
+      "permanent": true
+    },
+    {
+      "source": "/installation-guide/",
+      "destination": "/setup-guide.html",
+      "permanent": true
+    },
+    {
+      "source": "/contact-us",
+      "destination": "/contact.html",
+      "permanent": true
+    },
+    {
+      "source": "/contact-us/",
+      "destination": "/contact.html",
+      "permanent": true
+    },
+    {
+      "source": "/about-us",
+      "destination": "/about.html",
+      "permanent": true
+    },
+    {
+      "source": "/about-us/",
+      "destination": "/about.html",
+      "permanent": true
+    },
+    {
+      "source": "/product/:path*",
+      "destination": "/#pricing",
+      "permanent": true
+    },
+    {
+      "source": "/:p(shop|cart|checkout|my-account)",
+      "destination": "/#pricing",
+      "permanent": true
+    },
+    {
+      "source": "/:p(shop|cart|checkout|my-account)/:rest*",
+      "destination": "/#pricing",
+      "permanent": true
+    },
+    {
+      "source": "/:f(sitemap_index|wp-sitemap|page-sitemap|post-sitemap|product-sitemap|category-sitemap).xml",
+      "destination": "/sitemap.xml",
+      "permanent": true
+    },
+    {
+      "source": "/category/:path*",
+      "destination": "/blog/",
+      "permanent": true
+    },
+    {
+      "source": "/feed",
+      "destination": "/blog/",
+      "permanent": true
+    },
+    {
+      "source": "/feed/",
+      "destination": "/blog/",
+      "permanent": true
+    },
+    {
+      "source": "/comments/feed",
+      "destination": "/blog/",
+      "permanent": true
+    },
+    {
+      "source": "/comments/feed/",
+      "destination": "/blog/",
+      "permanent": true
+    }
+  ],
+  "rewrites": [
+    {
+      "source": "/:page(about|contact|privacy|terms|reseller|refund-policy|setup-guide)",
+      "destination": "/:page.html"
+    }
+  ],
+  "headers": [
+    {
+      "source": "/(.*)",
+      "headers": [
+        {
+          "key": "X-Content-Type-Options",
+          "value": "nosniff"
+        },
+        {
+          "key": "Referrer-Policy",
+          "value": "strict-origin-when-cross-origin"
+        },
+        {
+          "key": "X-Frame-Options",
+          "value": "SAMEORIGIN"
+        },
+        {
+          "key": "Permissions-Policy",
+          "value": "camera=(), microphone=(), geolocation=()"
+        },
+        {
+          "key": "Strict-Transport-Security",
+          "value": "max-age=31536000"
+        }
+      ]
+    },
+    {
+      "source": "/fonts/(.*)",
+      "headers": [
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=31536000, immutable"
+        }
+      ]
+    },
+    {
+      "source": "/img/(.*)",
+      "headers": [
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=2592000"
+        }
+      ]
+    }
+  ]
+}
