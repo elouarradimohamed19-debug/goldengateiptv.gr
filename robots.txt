@@ -1,4 +1,4 @@
-# greeksiptv.gr — Greek IPTV
+# goldengateiptv.gr — Greek IPTV
 User-agent: *
 Allow: /
 Disallow: /404.html
@@ -33,4 +33,4 @@ Allow: /
 User-agent: DuckAssistBot
 Allow: /
 
-Sitemap: https://greeksiptv.gr/sitemap.xml
+Sitemap: https://goldengateiptv.gr/sitemap.xml

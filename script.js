@@ -1,6 +1,6 @@
-// ================= SETTINGS (from greeksiptv.gr) =================
+// ================= SETTINGS (from goldengateiptv.gr) =================
 const CONFIG = {
-  site: "greeksiptv.gr",
+  site: "goldengateiptv.gr",
   whatsapp: "212707711512",
   email: "greeksiptv@gmail.com",
   // price per plan for 1 / 2 / 3 devices (EUR)
@@ -70,10 +70,10 @@ const T = {
     "faq.title":"Συχνές ερωτήσεις για το <span class=\"green\">Greek IPTV</span>",
     "what.title":"Τι είναι το <span class=\"green\">Greek IPTV</span>;",
     "what.p1":"Το <strong>Greek IPTV</strong> είναι μια συνδρομητική υπηρεσία τηλεόρασης μέσω internet (IPTV). Αντί για δορυφόρο ή καλώδιο, η εικόνα έρχεται μέσω της σύνδεσής σας στο internet, σε Smart TV, Fire TV Stick, Android, iPhone, MAG box ή υπολογιστή.",
-    "what.p2":"Στο Greeks IPTV (greeksiptv.gr) η συνδρομή Greek IPTV κοστίζει από 15€ τον μήνα για 1 συσκευή, με πακέτα 1 ημέρας έως 2 ετών και έως 3 συσκευές ταυτόχρονα. Πληρώνετε μία φορά, χωρίς αυτόματη ανανέωση, και λαμβάνετε τα στοιχεία σύνδεσης στο email σας σε 5 λεπτά έως 6 ώρες.",
+    "what.p2":"Στο Greeks IPTV (goldengateiptv.gr) η συνδρομή Greek IPTV κοστίζει από 15€ τον μήνα για 1 συσκευή, με πακέτα 1 ημέρας έως 2 ετών και έως 3 συσκευές ταυτόχρονα. Πληρώνετε μία φορά, χωρίς αυτόματη ανανέωση, και λαμβάνετε τα στοιχεία σύνδεσης στο email σας σε 5 λεπτά έως 6 ώρες.",
     "what.facts":"Βασικά στοιχεία",
     "what.f":["<b>Τιμή:</b> από 3€ (1 ημέρα) και 15€/μήνα","<b>Συσκευές:</b> 1, 2 ή 3 ταυτόχρονα","<b>Ποιότητα:</b> SD, HD, FHD και 4K","<b>Ενεργοποίηση:</b> 5 λεπτά έως 6 ώρες","<b>Πληρωμή:</b> PayPal και κάρτα μέσω PayPal","<b>Εγγύηση:</b> επιστροφή χρημάτων εντός 7 ημερών","<b>Υποστήριξη:</b> 24/7 μέσω WhatsApp και email"],
-    "what.updated":"Τελευταία ενημέρωση: 27 Σεπτεμβρίου 2026",
+    "what.updated":"Τελευταία ενημέρωση: 15 Οκτωβρίου 2026",
     "table.title":"Τιμοκατάλογος Greek IPTV 2026",
     "table.plan":"Πακέτο",
     "table.note":"Όλες οι τιμές σε ευρώ. Εφάπαξ πληρωμή, χωρίς αυτόματη ανανέωση.",
@@ -131,7 +131,7 @@ const T = {
     "faq.title":"Greek IPTV <span class=\"green\">FAQ</span>",
     "what.title":"What is <span class=\"green\">Greek IPTV</span>?",
     "what.p1":"<strong>Greek IPTV</strong> is a subscription TV service delivered over the internet (IPTV). Instead of satellite or cable, the picture comes through your internet connection to a Smart TV, Fire TV Stick, Android, iPhone, MAG box or computer.",
-    "what.p2":"At Greeks IPTV (greeksiptv.gr) a Greek IPTV subscription costs from €15 per month for 1 device, with plans from 1 day to 2 years and up to 3 devices at once. You pay once, with no automatic renewal, and receive your login details by email within 5 minutes to 6 hours.",
+    "what.p2":"At Greeks IPTV (goldengateiptv.gr) a Greek IPTV subscription costs from €15 per month for 1 device, with plans from 1 day to 2 years and up to 3 devices at once. You pay once, with no automatic renewal, and receive your login details by email within 5 minutes to 6 hours.",
     "what.facts":"Key facts",
     "what.f":["<b>Price:</b> from €3 (1 day) and €15/month","<b>Devices:</b> 1, 2 or 3 at once","<b>Quality:</b> SD, HD, FHD and 4K","<b>Activation:</b> 5 minutes to 6 hours","<b>Payment:</b> PayPal and cards via PayPal","<b>Guarantee:</b> money back within 7 days","<b>Support:</b> 24/7 via WhatsApp and email"],
     "what.updated":"Last updated: 27 September 2026",

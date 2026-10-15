@@ -22,7 +22,7 @@
           cta: "Order on WhatsApp", more: "See all plans", close: "Close" },
   }[lang];
   const phone = (window.SITE && SITE.whatsapp) || "212707711512";
-  const waMsg = `greeksiptv.gr - 1 Year / 1 Device - ${OFFER.price}€`;
+  const waMsg = `goldengateiptv.gr - 1 Year / 1 Device - ${OFFER.price}€`;
   const plansHref = document.body.dataset.page === "home" ? "#pricing" : "index.html#pricing";
   let shown = false, lastFocus = null;
 

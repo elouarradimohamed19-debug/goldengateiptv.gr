@@ -1,4 +1,4 @@
-# ============ greeksiptv.gr (Apache / LiteSpeed on Hostinger) ============
+# ============ goldengateiptv.gr (Apache / LiteSpeed on Hostinger) ============
 Options -Indexes
 DirectoryIndex index.html
 ErrorDocument 404 /404.html
@@ -11,7 +11,7 @@ RewriteEngine On
 # Force HTTPS and the non-www domain
 RewriteCond %{HTTPS} off [OR]
 RewriteCond %{HTTP_HOST} ^www\. [NC]
-RewriteRule ^ https://greeksiptv.gr%{REQUEST_URI} [L,R=301]
+RewriteRule ^ https://goldengateiptv.gr%{REQUEST_URI} [L,R=301]
 
 # Clean URLs: /about -> /about.html ; /about.html stays working
 RewriteCond %{REQUEST_FILENAME}.html -f
