@@ -1,6 +1,6 @@
 // 1-YEAR OFFER POPUP — shows once, after 12 s or half-page scroll; hidden for 3 days after closing.
 (function () {
-  const OFFER = { months: 12, price: 62, monthly: 15, img: "img/hero-tv.webp", delayMs: 12000, snoozeDays: 3 };
+  const OFFER = { months: 12, price: 62, monthly: 15, img: "/img/hero-tv.webp", delayMs: 12000, snoozeDays: 3 };
   const skip = ["refund", "terms", "privacy", "404"];
   if (skip.includes(document.body.dataset.page)) return;
   const store = { get: k => { try { return localStorage.getItem(k); } catch (e) { return null; } },
@@ -22,8 +22,8 @@
           cta: "Order on WhatsApp", more: "See all plans", close: "Close" },
   }[lang];
   const phone = (window.SITE && SITE.whatsapp) || "212707711512";
-  const waMsg = `goldengateiptv.gr - 1 Year / 1 Device - ${OFFER.price}€`;
-  const plansHref = document.body.dataset.page === "home" ? "#pricing" : "index.html#pricing";
+  const waMsg = `Γεια σας! Θα ήθελα να παραγγείλω Greeks IPTV (goldengateiptv.gr): 1 Έτος / 1 Συσκευή – ${OFFER.price}€`;
+  const plansHref = document.body.dataset.page === "home" ? "#pricing" : "/#pricing";
   let shown = false, lastFocus = null;
 
   function show() {
@@ -38,7 +38,7 @@
           <span class="offer-pct">-${pct}%</span></div>
         <div class="offer-body">
           <h2 id="offerTitle">${T.title}</h2>
-          <div class="offer-price"><s>€${full}</s> <b>€${OFFER.price}</b></div>
+          <div class="offer-price"><b>€${OFFER.price}</b></div>
           <p class="offer-per">${T.per}</p>
           <p class="offer-save"><i class="fa-solid fa-piggy-bank"></i> ${T.save}</p>
           <ul>${T.list.map(x => `<li><i class="fa-solid fa-check"></i>${x}</li>`).join("")}</ul>

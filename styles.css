@@ -598,3 +598,22 @@ img{max-width:100%;display:block}
   .nav-links{position:static;display:flex;flex-direction:row;background:none;padding:0;border:0;gap:20px}
 }
 @media (min-width:861px) and (max-width:1280px){[data-theme="greek"] .nav-links{background:none}}
+
+/* ---------- Audit fixes (2026-10-15) ---------- */
+/* Anchored sections clear the sticky header */
+section[id],[id="pricing"],[id="faq"]{scroll-margin-top:84px}
+/* Touch targets at least 44px */
+.lang-btn,.menu-btn{min-width:44px;min-height:44px}
+.offer-close{width:44px;height:44px}
+.offer-more{padding:10px 4px}
+.crumbs a{display:inline-block;padding:10px 0}
+.f-col a{display:inline-block;padding:6px 0}
+/* Price line under the hero text */
+.hero-price{margin:14px 0 18px!important;font-size:1.05rem!important;color:#fff!important}
+.hero-price b{color:var(--green);font-size:1.35rem}
+/* Small screens: the 1-year offer is a compact bottom sheet, not a full-screen overlay */
+@media (max-width:600px){
+  .offer-overlay{background:rgba(3,8,20,.35);backdrop-filter:none}
+  .offer-box{max-height:46vh}
+  .offer-media,.offer-box ul{display:none}
+}

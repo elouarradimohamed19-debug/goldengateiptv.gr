@@ -20,8 +20,9 @@
 @keyframes stripe{to{background-position:160px 0}}
 
 /* ---------- Hero entrance ---------- */
+/* Entrance moves only: nothing above the fold starts invisible, so it paints (and counts for LCP) at once. */
 .hero h1>span,.hero p,.hero .btn-lg,.hero .mail-alt,.hero-devices li,.page-hero h1,.page-hero p,.page-hero .crumbs{
-  animation:fadeUp .8s cubic-bezier(.2,.7,.2,1) both}
+  animation:riseIn .8s cubic-bezier(.2,.7,.2,1) both}
 .hero h1>span:nth-of-type(1){animation-delay:.05s}
 .hero h1>span:nth-of-type(2){animation-delay:.2s}
 .hero p{animation-delay:.35s}
@@ -31,14 +32,15 @@
 .hero-devices li:nth-child(3){animation-delay:.79s}.hero-devices li:nth-child(4){animation-delay:.86s}
 .hero-devices li:nth-child(5){animation-delay:.93s}
 .page-hero .crumbs{animation-delay:0s}.page-hero h1{animation-delay:.1s}.page-hero p{animation-delay:.25s}
-.hero-visual{animation:slideIn 1s .25s cubic-bezier(.2,.7,.2,1) both}
+.hero-visual{animation:slideIn 1s cubic-bezier(.2,.7,.2,1) both}
 @keyframes fadeUp{from{opacity:0;transform:translateY(26px)}to{opacity:1;transform:none}}
-@keyframes slideIn{from{opacity:0;transform:translateX(60px) scale(.96)}to{opacity:1;transform:none}}
+@keyframes slideIn{from{transform:translateX(60px) scale(.96)}to{transform:none}}
+@keyframes riseIn{from{transform:translateY(26px)}to{transform:none}}
 
 /* Headline shimmer */
 .hero h1 .green{background:linear-gradient(100deg,var(--green) 0%,var(--green) 40%,#fff 50%,var(--green) 60%,var(--green) 100%);
   background-size:250% 100%;-webkit-background-clip:text;background-clip:text;color:transparent;
-  animation:fadeUp .8s .05s both,shimmer 5s 1.2s ease-in-out infinite}
+  animation:riseIn .8s .05s both,shimmer 5s 1.2s ease-in-out infinite}
 @keyframes shimmer{0%{background-position:100% 0}60%,100%{background-position:-50% 0}}
 
 /* TV photo floats + tilts with the mouse */

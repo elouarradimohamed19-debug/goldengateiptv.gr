@@ -1,7 +1,6 @@
 # goldengateiptv.gr — Greek IPTV
 User-agent: *
 Allow: /
-Disallow: /404.html
 
 # Search engines and AI answer engines are welcome
 User-agent: Googlebot
