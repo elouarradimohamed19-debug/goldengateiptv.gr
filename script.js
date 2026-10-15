@@ -52,11 +52,11 @@ const CONFIG = {
 const T = {
   el: {
     "nav.home":"Αρχική","nav.pricing":"Τιμές","nav.channels":"Περιεχόμενο","nav.blog":"Blog","nav.reseller":"Πρόγραμμα Μεταπωλητών","nav.guide":"Οδηγός εγκατάστασης","nav.faq":"FAQ","nav.contact":"Επικοινωνία","nav.trial":"Ζητήστε δοκιμή",
-    "hero.t1":"Greek IPTV","hero.t2":"Συνδρομή IPTV για ελληνική τηλεόραση",
-    "hero.p":"Το <strong>Greek IPTV</strong> μας φέρνει ζωντανά κανάλια, αθλητικά, ταινίες και σειρές με υπότιτλους στην τηλεόραση, το κινητό και τον υπολογιστή σας, σε ποιότητα έως 4K. Σταθεροί διακομιστές Anti-Freeze, ενεργοποίηση σε 5 λεπτά έως 6 ώρες και δοκιμή πριν την αγορά.",
+    "hero.t1":"Greek IPTV:","hero.t2":"συνδρομή για ελληνική τηλεόραση",
+    "hero.p":"Το <strong>Greeks IPTV</strong> σας φέρνει ζωντανά κανάλια, αθλητικά, ταινίες και σειρές με υπότιτλους στην τηλεόραση, το κινητό και τον υπολογιστή σας, σε ποιότητα έως 4K. Σταθεροί διακομιστές Anti-Freeze, ενεργοποίηση σε 5 λεπτά έως 6 ώρες και δοκιμή πριν την αγορά.",
     "hero.price":"Από <b>15€</b>/μήνα · 1–3 συσκευές · χωρίς αυτόματη ανανέωση",
     "hero.cta":"Ζητήστε δοκιμή",
-    "pricing.title":"Τιμές Greek IPTV: διαλέξτε το <span class=\"green\">πακέτο σας</span>",
+    "pricing.title":"Τιμές συνδρομής: διαλέξτε το <span class=\"green\">πακέτο σας</span>",
     "pricing.sub":"Συνδρομή Greek IPTV από 15€ τον μήνα, ή πάσο 1 ημέρας με 3€. Χωρίς αυτόματη ανανέωση.",
     "dev.1":"1 Συσκευή","dev.2":"2 Συσκευές","dev.3":"3 Συσκευές",
     "plan.f":["Παρακολουθήστε σε οποιαδήποτε συσκευή","Τεχνολογία Anti-Freeze","Ποιότητα SD / HD / FHD / 4K","Δωρεάν & αυτόματες ενημερώσεις","Διαθέσιμο EPG (οδηγός προγράμματος)","Επιστροφή χρημάτων εντός 7 ημερών","Δωρεάν υποστήριξη 24/7 μέσω WhatsApp"],
@@ -68,7 +68,7 @@ const T = {
     "movies.title":"Ταινίες & <span class=\"green\">Σειρές TV</span>",
     "faq.title":"Συχνές ερωτήσεις για το <span class=\"green\">Greek IPTV</span>",
     "what.title":"Τι είναι το <span class=\"green\">Greek IPTV</span>;",
-    "what.p1":"Το <strong>Greek IPTV</strong> είναι μια συνδρομητική υπηρεσία τηλεόρασης μέσω internet (IPTV). Αντί για δορυφόρο ή καλώδιο, η εικόνα έρχεται μέσω της σύνδεσής σας στο internet, σε Smart TV, Fire TV Stick, Android, iPhone, MAG box ή υπολογιστή.",
+    "what.p1":"Το <strong>Greek IPTV</strong>, γνωστό και ως ελληνική IPTV ή IPTV Greece, είναι μια συνδρομητική υπηρεσία τηλεόρασης μέσω internet. Αντί για δορυφόρο ή καλώδιο, η εικόνα έρχεται μέσω της σύνδεσής σας στο internet, σε Smart TV, Fire TV Stick, Android, iPhone, MAG box ή υπολογιστή.",
     "what.p2":"Στο Greeks IPTV (goldengateiptv.gr) η συνδρομή Greek IPTV κοστίζει από 15€ τον μήνα για 1 συσκευή, με πακέτα 1 ημέρας έως 2 ετών και έως 3 συσκευές ταυτόχρονα. Πληρώνετε μία φορά, χωρίς αυτόματη ανανέωση, και λαμβάνετε τα στοιχεία σύνδεσης στο email σας σε 5 λεπτά έως 6 ώρες.",
     "what.facts":"Βασικά στοιχεία",
     "what.f":["<b>Τιμή:</b> από 3€ (1 ημέρα) και 15€/μήνα","<b>Συσκευές:</b> 1, 2 ή 3 ταυτόχρονα","<b>Ποιότητα:</b> SD, HD, FHD και 4K","<b>Ενεργοποίηση:</b> 5 λεπτά έως 6 ώρες","<b>Πληρωμή:</b> PayPal και κάρτα μέσω PayPal","<b>Εγγύηση:</b> επιστροφή χρημάτων εντός 7 ημερών","<b>Υποστήριξη:</b> 24/7 μέσω WhatsApp και email"],
@@ -77,19 +77,19 @@ const T = {
     "table.plan":"Πακέτο",
     "table.note":"Όλες οι τιμές σε ευρώ. Εφάπαξ πληρωμή, χωρίς αυτόματη ανανέωση.",
     "sports.title":"Όλες οι Αθλητικές <span class=\"green\">Εκδηλώσεις</span>",
-    "how.title":"Πώς λειτουργεί το Greek IPTV;",
+    "how.title":"Πώς λειτουργεί η συνδρομή;",
     "how.1t":"1. Καταχωρήστε την παραγγελία σας","how.1d":"Επιλέξτε την περίοδο συνδρομής που προτιμάτε: 1 ημέρα, 1, 3, 6, 12 ή 24 μήνες και τον αριθμό συσκευών.",
     "how.2t":"2. Λάβετε τον λογαριασμό σας","how.2d":"Μετά την επαλήθευση της πληρωμής θα λάβετε τα στοιχεία σύνδεσης στο email σας, σε 5 λεπτά έως 6 ώρες. Ελέγξτε και τον φάκελο ανεπιθύμητης αλληλογραφίας.",
     "how.3t":"3. Απολαύστε την υπηρεσία σας!","how.3d":"Ακολουθήστε τον δωρεάν οδηγό εγκατάστασης και απολαύστε κανάλια, ταινίες και σειρές τώρα!",
-    "world.title":"Κανάλια από κάθε <span class=\"green\">γωνιά του κόσμου</span>",
-    "feat.title":"Γιατί να επιλέξετε το δικό μας Greek IPTV",
+    "world.title":"Ελληνικά κανάλια <span class=\"green\">σε όλο τον κόσμο</span>",
+    "feat.title":"Γιατί να επιλέξετε το Greeks IPTV",
     "feat.1t":"Λειτουργεί σε όλες τις συσκευές","feat.1d":"Οι αγαπημένες σας εκπομπές και κανάλια σε οποιαδήποτε συσκευή, από οποιαδήποτε τοποθεσία.",
     "feat.2t":"Δωρεάν Εγκατάσταση","feat.2d":"Παρέχουμε έναν πλήρη δωρεάν οδηγό εγκατάστασης από την αρχή μέχρι το τέλος.",
     "feat.3t":"Γρήγορη Ενεργοποίηση","feat.3d":"Μετά την επαλήθευση της πληρωμής λαμβάνετε τα στοιχεία σύνδεσης στο email σας, σε 5 λεπτά έως 6 ώρες.",
     "feat.4t":"Γρήγορος και Σταθερός Διακομιστής","feat.4d":"Διακομιστές με τεχνολογία CDN, ώστε να μη χρειάζεται να ανησυχείτε για τη σταθερότητα.",
     "feat.5t":"Υψηλή Ποιότητα","feat.5d":"Κανάλια σε HD και 4K με σταθερή ροή από διακομιστές CDN. Νέο περιεχόμενο προστίθεται τακτικά.",
     "feat.6t":"Φιλική Υποστήριξη 24/7","feat.6d":"Επικοινωνήστε μαζί μας οποτεδήποτε μέσω WhatsApp ή email και θα σας απαντήσουμε το συντομότερο δυνατό.",
-    "dev.title":"Greek IPTV σε όλες τις <span class=\"green\">Συσκευές</span>",
+    "dev.title":"Ελληνική IPTV σε όλες τις <span class=\"green\">Συσκευές</span>",
     "rev.title":"Ακούστε από τους <span class=\"green\">ευχαριστημένους πελάτες</span> μας",
     "rev.placeholder":"Προσθέστε εδώ πραγματικό στιγμιότυπο κριτικής",
     "contact.title":"Έχετε ερωτήσεις; <span class=\"green\">Επικοινωνήστε μαζί μας</span>",
@@ -115,8 +115,8 @@ const T = {
   },
   en: {
     "nav.home":"Home","nav.pricing":"Pricing","nav.channels":"Content","nav.blog":"Blog","nav.reseller":"Reseller Program","nav.guide":"Setup Guide","nav.faq":"FAQ","nav.contact":"Contact Us","nav.trial":"Request a trial",
-    "hero.t1":"Greek IPTV","hero.t2":"IPTV subscription for Greek TV",
-    "hero.p":"Our <strong>Greek IPTV</strong> service brings live channels, sports, movies and series with subtitles to your TV, phone and computer in up to 4K. Stable Anti-Freeze servers, activation within 5 minutes to 6 hours and a trial before you buy.",
+    "hero.t1":"Greek IPTV:","hero.t2":"a subscription for Greek TV",
+    "hero.p":"<strong>Greeks IPTV</strong> brings live channels, sports, movies and series with subtitles to your TV, phone and computer in up to 4K. Stable Anti-Freeze servers, activation within 5 minutes to 6 hours and a trial before you buy.",
     "hero.price":"From <b>€15</b>/month · 1–3 devices · no automatic renewal",
     "hero.cta":"Request a trial",
     "pricing.title":"Greek IPTV prices: choose <span class=\"green\">your plan</span>",
@@ -140,12 +140,12 @@ const T = {
     "table.plan":"Plan",
     "table.note":"All prices in euros. One-time payment, no automatic renewal.",
     "sports.title":"All Sports <span class=\"green\">Events</span>",
-    "how.title":"How does Greek IPTV work?",
+    "how.title":"How does the subscription work?",
     "how.1t":"1. Place your order","how.1d":"Choose your subscription period: 1 day, 1, 3, 6, 12 or 24 months, and the number of devices.",
     "how.2t":"2. Get your account","how.2d":"After payment is verified you'll receive your login details by email within 5 minutes to 6 hours. Check your spam folder too.",
     "how.3t":"3. Enjoy your service!","how.3d":"Follow our free setup guide and enjoy channels, movies and series now!",
     "world.title":"Channels from every <span class=\"green\">corner of the world</span>",
-    "feat.title":"Why choose our Greek IPTV",
+    "feat.title":"Why choose Greeks IPTV",
     "feat.1t":"Works on all devices","feat.1d":"Your favourite shows and channels on any device, from anywhere.",
     "feat.2t":"Free Installation","feat.2d":"We provide a complete free setup guide from start to finish.",
     "feat.3t":"Fast Activation","feat.3d":"After payment is verified you receive your login details by email within 5 minutes to 6 hours.",
@@ -228,7 +228,7 @@ document.querySelectorAll(".dev-toggle button").forEach(b => b.addEventListener(
 
 function posterHTML(p) {
   const title = p[lang], tag = p.tag[lang === "el" ? 0 : 1];
-  return `<div class="poster placeholder photo"><img src="${p.img}" alt="Greek IPTV ${title}" loading="lazy" decoding="async" width="512" height="768"><small>${tag}</small><b>${title}</b></div>`;
+  return `<div class="poster placeholder photo"><img src="${p.img}" alt="${title}" loading="lazy" decoding="async" width="512" height="768"><small>${tag}</small><b>${title}</b></div>`;
 }
 
 function renderSliders() {
